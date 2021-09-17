@@ -55,7 +55,7 @@
 
 
             <SeekBar
-                android:id="@+id/seekBar1"
+                android:id="@+id/candleSeekBar"
                 android:progress="2"
                 android:max="5"
                 android:layout_width="match_parent"
@@ -71,7 +71,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1" />
                 <Switch
-                    android:id="@+id/switch2"
+                    android:id="@+id/candleSwitch"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
@@ -97,7 +97,7 @@
 
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/blowOutButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
